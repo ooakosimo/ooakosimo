@@ -28,6 +28,10 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+.box {
+border: 2px solid black;
+}
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -60,7 +64,14 @@ mark{
 <h1><mark>Freedom as a Process</mark></h1>
 <h3><mark>Hover over the image below:</mark></h3>
 
-<div class="flip-card">
+
+<!-- put both flips under one div and flex it-->
+<div style="display:flex;"> 
+<!-- -->
+
+
+<!-- for each element give margin (space between both)-->
+<div class="flip-card" style="margin:0 30px">
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="https://i.imgur.com/hcwYPBh.png" alt="StateOfMind" style="width:375px;height:520px;">
@@ -73,7 +84,10 @@ mark{
     </div>
   </div>
 </div>
-<div class="flip-card">
+
+
+<!-- here too -->
+<div class="flip-card" style="margin:0 400px">
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="https://i.imgur.com/hcwYPBh.png" alt="StateOfMind" style="width:375px;height:520px;">
@@ -86,5 +100,10 @@ mark{
     </div>
   </div>
 </div>
+
+<div>
+
+
+
 </body>
 </html>
