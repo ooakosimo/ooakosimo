@@ -1,109 +1,145 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  background-color: #222222;
-  padding: 20px;
-  font-family: courier new, Helvetica, sans-serif;
-  color: blue;
-  background-image: url("https://www.horntorus.com/illustration/spiral-dive-in.gif");
+
+Result Size: 945 x 925
+
+  box-sizing: border-box;
+
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 375px;
-  height: 520px;
-  perspective: 1000px;
+​
+
+.responsive {
+
+  padding: 0 6px;
+
+  float: left;
+
+  width: 33.33%;
+
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+​
+
+@media only screen and (max-width: 700px) {
+
+  .responsive {
+
+    width: 33.33%;
+
+    margin: 6px 0;
+
+  }
+
 }
 
-.box {
-border: 2px solid black;
+​
+
+@media only screen and (max-width: 500px) {
+
+  .responsive {
+
+    width: 100%;
+
+  }
+
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+​
+
+.clearfix:after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
 }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #111111;
-  color: gray;
-  transform: rotateY(180deg);
-}
-mark{
- background-color:#ffa500;
-}
 </style>
+
 </head>
+
 <body>
 
-<h1><mark>Freedom as a Process</mark></h1>
-<h3><mark>Hover over the image below:</mark></h3>
+​
 
+<h2>FREEDOM AS A PROCESS</h2>
 
-<!-- put both flips under one div and flex it-->
-<div style="display:flex;"> 
-<!-- -->
+<h4>by:ooakosiMo![2021 card submission for bitcorn]</h4>
 
+​
 
-<!-- for each element give margin (space between both)-->
-<div class="flip-card" style="margin:0 30px">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="https://i.imgur.com/hcwYPBh.png" alt="StateOfMind" style="width:375px;height:520px;">
-    </div>
-    <div class="flip-card-back">
-      <h1>FREEDOM<br>AS A<br>PROCESS</h1> 
-      <p>Freedom is awareness,<br>it isn’t quiet an end point<br>but a process.<br>Slavery is a perspective rooted<br>in an emotional/mental state.</p> 
-      <p>Confused Bi-Product<br>of a<br>Misinformed Culture</p>
-      <p><a href="https://app.rarible.com/token/0x6a5ff3ceecae9ceb96e6ac6c76b82af8b39f0eb3:2346" target="_blank"> more info </a></p>
-    </div>
+<div class="responsive">
+
+  <div class="gallery">
+
+    <a target="_blank" href="img_lights.jpg">
+
+      <img src="https://i.imgur.com/Ruqq6rB.png" alt="StateOfMind" width="600" height="400">
+
+    </a>
+
+    <div class="desc">#001</div>
+
   </div>
+
 </div>
 
+​
 
-<!-- here too 
-<div class="flip-card" style="margin:0 400px">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="https://i.imgur.com/hcwYPBh.png" alt="StateOfMind" style="width:375px;height:520px;">
-    </div>
-    <div class="flip-card-back">
-      <h1>FREEDOM<br>AS A<br>PROCESS</h1> 
-      <p>Freedom is awareness,<br>it isn’t quiet an end point<br>but a process.<br>Slavery is a perspective rooted<br>in an emotional/mental state.</p> 
-      <p>Confused Bi-Product<br>of a<br>Misinformed Culture</p>
-      <p><a href="https://app.rarible.com/token/0x6a5ff3ceecae9ceb96e6ac6c76b82af8b39f0eb3:2346" target="_blank"> more info </a></p>
-    </div>
+<div class="responsive">
+
+  <div class="gallery">
+
+    <a target="_blank" href="img_forest.jpg">
+
+      <img src="https://i.imgur.com/hcwYPBh.png" alt="StateOfMind" width:"375px" height:"520"px;>
+
+    </a>
+
+    <div class="desc">#002</div>
+
   </div>
-</div> -->
 
-<div>
+</div>
 
+​
 
+<div class="responsive">
+
+  <div class="gallery">
+
+    <a target="_blank" href="img_5terre.jpg">
+
+      <img src="https://i.imgur.com/W0IC82B.jpg" alt="StateOfMind" width:"375px" height:"520"px;>
+
+    </a>
+
+    <div class="desc">#003</div>
+
+  </div>
+
+</div>
+
+​
+
+<div class="clearfix"></div>
+
+​
+
+<div style="padding:6px;">
+
+  <p>"Freedom is awareness, it isn’t quiet an end point but a process. Slavery is a perspective rooted in an emotional/mental state. The mind catches on quick, what may be free a year or so ago may not be free any more."</p>
+
+  <p>-Confused Bi-Product of a Misinformed Culture</p>
+
+</div>
+
+​
 
 </body>
+
 </html>
+
+​
+
