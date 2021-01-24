@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: #111111;
+  padding: 20px;
+  font-family: courier new, Helvetica, sans-serif;
+  color: blue;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 375px;
+  height: 520px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.box {
+border: 2px solid black;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #111111;
+  color: gray;
+  transform: rotateY(180deg);
+}
+mark{
+ background-color:RED;
+}
+</style>
+</head>
+<body>
+
+<h1><mark>JUETENG</mark></h1>
+<h3><mark>Hover over the image below:</mark></h3>
+
+
+<!-- put both flips under one div and flex it-->
+<div style="display:flex;"> 
+<!-- -->
+
+
+<!-- for each element give margin (space between both)-->
+<div class="flip-card" style="margin:0 30px">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://i.imgur.com/FZgtTI2.gif" alt="StateOfMind" style="width:375px;height:520px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>JUETENG<br>NUMBERS GAME</h1> 
+      <p>Due to a low buy-in and the prospect of a relatively lucrative payout, it is appealing and often considered harmless fun. Individuals who collect bets, known as kubrador, are often considered trusted members of local communities. Different jueteng lords run their own competing games.The decentralized nature of the game, and the multitude of operators, make it hard to eliminate.Annual estimated gross revenue of jueteng operators is around $1 billion usd.The low cost of a ticket leads many to consider the gambling relatively harmless.It is even often seen as a community activity.Due to the illegality of the game and the subsequent opaqueness and lack of a formal structure, a high degree of trust by the bettor in their kubrador is required.</p> 
+      <p><a href="https://i.imgur.com/FZgtTI2.gif" target="_blank">MORE INFO</a></p>
+    </div>
+  </div>
+</div>
+<div>
+
+
+</body>
+</html>
