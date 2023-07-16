@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url("https://i.pinimg.com/originals/2e/0d/84/2e0d842575ee5586bcfea75e42b16fe4.gif") repeat;
+    }
+    
+    .container {
+      display: flex;
+      align-items: flex-end;
+      height: 100vh;
+    }
+    
+    .image {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .image img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    
+    .overlay {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .description {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    .preview {
+      height: 200px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+    }
+    
+    .iframe-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+      height: 0;
+      overflow: hidden;
+    }
+    
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="https://ujrn7kwbtxqm2q3v2a6ocjgg2epuuvgdlfgjr656hdh2vcqlbwrq.arweave.net/omLfqsGd4M1DddA84STG0R9KVMNZTJj7vjjPqooLDaM/c5j9xr_image.png" alt="Image">
+      <div class="overlay">
+        <div class="title">Title of Artwork</div>
+        <div class="description">Supernatural Luck: The Kubrador card brings unparalleled luck, increasing your chances of success in games of chance. <br> Wise Insights: Tap into the Kubrador card's knowledge of numbers and odds, gaining valuable strategies and insights. <br> Fortune's Shield: The Kubrador card protects you from misfortune, minimizing risks and setbacks. <br> Exclusive Network: Connect with a secretive network of gamblers and gain access to hidden games and gatherings. <br> Wealth Amplifier: With the Kubrador card, your wealth grows exponentially, attracting lucrative opportunities and favorable outcomes.
+Contact Information</div>
+      </div>
+    </div>
+    <div class="preview">
+      <div class="iframe-wrapper">
+        <iframe src="b966de909bb4e37c550df93078704dc50e62f1ab909c12d94a7cc6b783cab152"></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
